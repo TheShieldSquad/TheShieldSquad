@@ -1,6 +1,3 @@
-Here's the JavaScript code formatted according to standard coding practices:
-
-```javascript
 (function (e) {
     var t = {};
 
