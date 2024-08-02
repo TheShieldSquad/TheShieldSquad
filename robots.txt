@@ -1,1 +1,7 @@
-
+User-agent: *
+Disallow: /code/
+Disallow: /Privacy-Policy/
+Disallow: /Disclaime/
+Disallow: /Terms-of-Service/
+Allow: /Blog/
+Allow: /Research/
