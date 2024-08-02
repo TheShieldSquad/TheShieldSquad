@@ -5,3 +5,5 @@ Disallow: /Disclaime/
 Disallow: /Terms-of-Service/
 Allow: /Blog/
 Allow: /Research/
+Allow: /Community/
+Allow: /Documentation/
