@@ -47,7 +47,7 @@ canvas{
 /* ---- stats.js ---- */
 
 .count-particles{
-  background: #ff0000;
+  background: #000022;
   position: absolute;
   top: 48px;
   left: 0;
@@ -99,7 +99,7 @@ canvas{
 
 /* You will need to modify the particles configuration to set the particle color to red */
 .particles-js-canvas-el {
-    background-color: #ff0000;
+    background-color: #000000;
 }
 
 /* Assuming you have particles.js configuration in your script, ensure to set color to red */
