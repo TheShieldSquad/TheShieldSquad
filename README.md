@@ -1,4 +1,4 @@
-## particles.js
+<!--## particles.js
 
 ### A lightweight JavaScript library for creating particles.
 
@@ -241,3 +241,4 @@ meteor add newswim:particles
 ***Please use this host or your own to load particles.js on your projects***
 
 http://www.jsdelivr.com/#!particles.js
+-->
