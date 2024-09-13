@@ -17,6 +17,53 @@ a {
     text-decoration: none;
 }
 
+.challenges {
+    text-align: center;
+}
+
+.main-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.box {
+    flex-basis: calc(33.33% - 40px);
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1d1d1d;
+    color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: translateY(-10px);
+}
+
+.box img {
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .box {
+        flex-basis: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .box {
+        flex-basis: calc(100% - 40px);
+    }
+}
+
+
 .box-button {
     display: inline-block;
     padding: 10px 20px;
