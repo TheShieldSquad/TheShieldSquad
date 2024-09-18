@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+h2 {
+    color: #1877f2;
+    text-align: center;
+    height:2.65rem;
+    font-size: 2.3rem;
+
+}
+
+input{
+    border: 3px solid #ccc;
+    border-radius: .3rem;
+    border-width: .03rem;
+    height:2.65rem;
+    width: 17rem;
+    height:2.65rem;
+}
+
+button {
+    background-color: #1877f2;
+    border-radius: .3rem;
+    border-width: 0rem;
+    height:2.65rem;
+    width: 17rem;
+    font-size: medium;
+    font-weight: bold;
+    color: #ffffff;
+}
+form{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    border-radius: .4rem;
+    width: 20rem;
+    box-shadow: 0px 0px 6px 1px rgb(212, 212, 212);
+}
+a{
+    color: #1877f2;
+    text-decoration:none
+}
+
+.bottem{
+    color: #244fdd;
+    font-size: .78rem;
+}
+.server{
+    font-family: monospace;
+}
+#top {
+    text-align:center;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+#frame_1, #frame_2 {
+    flex: 1;
+    padding: 20px;
+}
+
+#frame_1 {
+    background-color: #f9f9f9;
+}
+
+#frame_2 {
+    background-color: #1e1e1e;
+    color: #00ff00;
+    overflow-y: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, button {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    #container {
+        flex-direction: column;
+    }
+}
