@@ -1,25 +1,13 @@
-function addCSS(filePath) {
-    const link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = filePath;
-    document.head.appendChild(link);
-}
+const themeToggle = document.getElementById('theme-toggle');
+const body = document.body;
+const hamburger = document.getElementById('hamburger');
+const navBar = document.getElementById('nav-bar');
 
-function addJavaScript(filePath, callback) {
-    const script = document.createElement('script');
-    script.src = filePath;
-    script.onload = callback;
-    document.body.appendChild(script);
-}
-
-addCSS('styles.css');
-
-addJavaScript('https://codes.myindianhub.com/backend/search-bot.js', () => {
-    initApp();
+themeToggle.addEventListener('click', () => {
+    body.classList.toggle('dark-theme');
+    themeToggle.querySelector('i').classList.toggle('fa-sun');
 });
 
-function initApp() {
-    console.log('Initializing the application...');
-}
-
-addCSS('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+hamburger.addEventListener('click', () => {
+    navBar.classList.toggle('active');
+});
