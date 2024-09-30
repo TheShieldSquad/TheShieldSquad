@@ -22,6 +22,10 @@ a{
     width: 19rem;
 }
 
+.footer-content {
+    margin-bottom: -30%;
+}
+
 #accept-button {
     padding: 1em;
     margin-top: 1.1rem;
