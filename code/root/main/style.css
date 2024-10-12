@@ -27,6 +27,11 @@ footer {
     color: #fff;
 }
 
+nav {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 .footer-content {
     background-color: #333; 
     color: #fff; 
